@@ -3,9 +3,9 @@ from langchain.sql_database import SQLDatabase
 db = SQLDatabase.from_uri("sqlite:///ecommerce.db")
 
 # 2. Importar las APIs
-import a_env_vars
+import VarEntorno
 import os
-os.environ["OPENAI_API_KEY"] = a_env_vars.OPENAI_API_KEY
+os.environ["OPENAI_API_KEY"] = VarEntorno.OPENAI_API_KEY
 
 # 3. Crear el LLM
 from langchain.chat_models import ChatOpenAI

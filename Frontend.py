@@ -1,10 +1,10 @@
 #lanzar con streamlit run c_front_end.py en el terminal
 
-import b_backend
+import Backend
 import streamlit as st
 from streamlit_chat import message
 
-st.title("App No Moleste Usuario de Negocio")
+st.title("App No Moleste Usuario de Negocio-- TEST")
 st.write("Puedes hacerme a mi todas las preguntas y dejar trabajar al equipo de Data Science!!")
 
 if 'preguntas' not in st.session_state:
@@ -15,7 +15,7 @@ if 'respuestas' not in st.session_state:
 def click():
     if st.session_state.user != '':
         pregunta = st.session_state.user
-        respuesta = b_backend.consulta(pregunta)
+        respuesta = Backend.consulta(pregunta)
 
         st.session_state.preguntas.append(pregunta)
         st.session_state.respuestas.append(respuesta)
