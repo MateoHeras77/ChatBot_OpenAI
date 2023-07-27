@@ -25,11 +25,3 @@ COntinuar en develop
 
 Creamos un tag v0
 Creamos un tag v0
-
--------------
-
-Continuamos
-
----------------
-Feature3
-Caractertis
