@@ -26,5 +26,3 @@ COntinuar en develop
 Creamos un tag v0
 Creamos un tag v0
 
-Nuevo test
-Rama Head
