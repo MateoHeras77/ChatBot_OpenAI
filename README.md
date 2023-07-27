@@ -19,16 +19,10 @@ Adicional Feature 2
 Fin Prueba 1
 ****************************
 
+RAMA MAIN
 
 COntinuar en develop
 
 Creamos un tag v0
 Creamos un tag v0
 
--------------
-
-Continuamos
-
----------------
-Feature3
-Caractertis
